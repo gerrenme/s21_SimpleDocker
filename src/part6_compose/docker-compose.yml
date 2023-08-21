@@ -1,0 +1,8 @@
+services:
+  server:
+    build: ../part5_dockle
+  proxy:
+    build: .
+    ports:
+      - 80:8080
+      
